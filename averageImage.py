@@ -57,8 +57,8 @@ def quarter(img2, levels):
      """
      h = img2.shape[0]
      w = img2.shape[1]
-     hReg = h/2**levels
-     wReg = w/2**levels
+     hReg = h//2**levels
+     wReg = w//2**levels
      for i in range(2**levels):
           for j in range(2**levels):              
                #Average the region:
