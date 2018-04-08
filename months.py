@@ -1,7 +1,7 @@
 #CSci 127 Teaching Staff
 #October 2017
 #A program that uses functions to print out months.
-#Modified by:  ADD YOUR NAME HERE
+#Modified by:  CHANGLONG WANG / GitHub: Peterwang0211
 
 def monthString(monthNum):
      """
@@ -13,12 +13,30 @@ def monthString(monthNum):
      
      monthString = ""
 
-     ###################################
-     ### FILL IN YOUR CODE HERE      ###
-     ### Other than your name above, ###
-     ### this is the only section    ###
-     ### you change in this program. ###
-     ###################################
+     if monthNum=1:
+          print("January")
+     elif monthNum=2:
+          print("February")
+     elif monthNum=3:
+          print("March")
+     elif monthNum=4:
+          print("April")
+     elif monthNum=5:
+          print("May")
+     elif monthNum=6:
+          print("June")
+     elif monthNum=7:
+          print("July")
+     elif monthNum=8:
+          print("August")
+     elif monthNum=9:
+          print("September")
+     elif monthNum=10:
+          print("October")
+     elif monthNum=11:
+          print("December")
+     else:
+          print("December")
 
      return(monthString)
 
