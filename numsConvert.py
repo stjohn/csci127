@@ -26,11 +26,12 @@ def num2string(num):
 
 def main():
      nums = input('Enter a multi-digit number: ')
-     print('In words, your number is: ', end="")
+     newStr = ""
      for n in nums:
          word = num2string(int(n))
-         print(word, end=" ")
-     print('.')
+         newStr = newStr + " " + word
+     msg = 'In words, your number is:' + newStr + "."
+     print(msg)   
 
 
 #Allow script to be run directly:
