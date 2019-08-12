@@ -21,16 +21,12 @@ for ch in commands:
         tess.penup()
     elif ch == 'v':          #lower pen
         tess.pendown()
-    elif ch == 'B':          #go backwards
-        tess.backward(50)
     elif ch == 'S':	     #stamp
         tess.stamp()
     elif ch == 'l':          #bear left
         tess.left(45)
     elif ch == 'r':          #bear right
         tess.right(45)
-    elif ch == 'p':          #turn purple
-        tess.color("purple")
     else:                   #for any other character, print an error message
         print("Error: do not know the command:", c)
 
