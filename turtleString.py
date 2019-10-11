@@ -23,8 +23,6 @@ for ch in commands:
         tess.pendown()
     elif ch == 'B':          #go backwards
         tess.backward(50)
-    elif ch == 'r':	         #turn red
-        tess.color("red")
     elif ch == 'g':          #turn green
         tess.color("green")
     elif ch == 'b':          #turn blue
