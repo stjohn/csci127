@@ -38,7 +38,7 @@ for ch in commands:
     elif ch == 'p':          #turn purple
         tess.color("purple")
     else:                   #for any other character, print an error message
-        print("Error: do not know the command:", c)
+        print("Error: do not know the command:", ch)
 
 print("See graphics window for your image")
 myWin.exitonclick()         #Close the window when clicked
