@@ -60,6 +60,7 @@ def animate(t,lat,lon,wind):
      ### you change in this program. ###
      ###################################
     
+    return(t)
 
 def main():
     """Animates the path of hurricane from file:
