@@ -39,7 +39,7 @@ def animate(t,lat,lon,wind):
     """
     Takes as input: a turtle, the location (as latitude and longitude) and
     the wind speed.  The turtle moves to the location, changes color & pensize
-    (see below), and stamps.
+    (see below).
 
     * Red for Category 5 (windspeed > 157 mph)
     * Orange for Category 4  (windspeed in 130-156 mph)
